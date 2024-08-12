@@ -21,8 +21,7 @@ mongoose.set("strictQuery",false);
 const connect= async()=>{
     try{
          await mongoose.connect(process.env.MONGO_URI,{
-            //useNewUrlParser:true,
-            //useUnifiedTopology:true,
+            serverSelectionTimeoutMS: 5000,
          })
          console.log('Mongoose connected successfully');
          
@@ -31,6 +30,7 @@ const connect= async()=>{
        
     }
 }
+
 
 //middleware
 app.use(express.json());

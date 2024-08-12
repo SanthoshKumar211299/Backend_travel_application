@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+import mongoose, { Types } from "mongoose";
 
 const userSchema = new mongoose.Schema(
   {
@@ -16,6 +16,14 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    resetPasswordToken:{
+       type:String,
+      
+      },
+      resetPasswordExpires:{ 
+        type:Date,
+        
+      },
 
     photo: {
       type: String,
@@ -25,6 +33,8 @@ const userSchema = new mongoose.Schema(
       type: String,
       default: "user",
     },
+  
+    
   },
   { timestamps: true }
 );
