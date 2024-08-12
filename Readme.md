@@ -14,18 +14,31 @@ Create your own profile and build a trip where you can collate all your plans fo
 --------------------------------------------------------------------------------------------------------------------------------------
 Travel Planner is a fully functioning MERN application with a clean, efficient user interface successfully deployed with render using back end and front end technologies:
 
---React.js--
---JSX--
---CSS--
-Bootstap/Reactrap
-React Model
-Node.js
-Express
-Nodemailer
-MongoDB
-Mongoose
-Byrcpt
-Json Web Token
+*React.js
+
+*JSX
+
+*CSS
+
+*Bootstap/Reactrap
+
+*React Model
+
+*Node.js
+
+*Express
+
+*Nodemailer
+
+*MongoDB
+
+*Mongoose
+
+*Byrcpt
+
+*Json Web Token
+
+*crypto
 
 **Author:**
 ----------------------------------
