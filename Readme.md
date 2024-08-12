@@ -2,7 +2,7 @@
 
 A webisite that allows the user to collate all their travel plans and recommendations in one place.
 -----------------------------------------------------------------------------------------------------
-**Deployed Link:**
+**Deployed Link:** backend-travel-application.onrender.com
 
 **PostManDocumentation:** https://documenter.getpostman.com/view/34637553/2sA3s4kqL1
 
