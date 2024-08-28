@@ -73,6 +73,8 @@ export const login = async (req, res) => {
     res
       .cookie("accessToken", token, {
         httpOnly: true,
+        secure:true,
+        sameSite:"none",
         expires: token.expiresIn,
       })
       .status(200)
